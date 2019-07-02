@@ -9,7 +9,7 @@ import AboutMe from "./Components/About/AboutMe";
 function App() {
   return (
     <div className="App">
-      {/* <Header /> */}
+      <Header />
       {/* <Switch> */}
       {/* <Route exact path="/" component={AboutMe} /> */}
       {/* <Route path='/contact' component={Contact}/> */}

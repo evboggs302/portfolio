@@ -9,26 +9,22 @@ function Header() {
       <Link to="/">
         <div>
           <img id="profPic" src={pic} alt="profile-pic" />
-          <div id="testing">
-            This is for tRavis
-            <div>keepit going</div>
-          </div>
           <h1>Evan S. Boggs</h1>
           <h3>FULL-STACK WEB DEVELOPER</h3>
         </div>
       </Link>
-      <div>
+      <ul>
         <Link to="/portfolio">
-          <button>Portfolio</button>
+          <li>Portfolio</li>
         </Link>
         <Link to="/contact">
-          <button>Contact Me</button>
+          <li>Contact Me</li>
         </Link>
         {/* <Link>
-          <button />
+          <li />
         </Link> */}
-        <div id="testing2">give me them points</div>
-      </div>
+      </ul>
+      <footer>To contact Me, dont.</footer>
     </div>
   );
 }

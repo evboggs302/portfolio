@@ -17,12 +17,12 @@ function Header() {
         <Link to="/portfolio">
           <li>Portfolio</li>
         </Link>
+        <Link to="/projects">
+          <li>Projects</li>
+        </Link>
         <Link to="/contact">
           <li>Contact Me</li>
         </Link>
-        {/* <Link>
-          <li />
-        </Link> */}
       </ul>
       <footer>To contact Me, dont.</footer>
     </div>

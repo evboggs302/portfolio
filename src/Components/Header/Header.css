@@ -28,7 +28,6 @@
   background: none;
   border: none;
   color: orange;
-  position: fixed;
 }
 .header_container > a:hover,
 .header_container > div button:hover {

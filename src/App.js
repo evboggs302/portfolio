@@ -3,7 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import "./App.css";
 import Header from "./Components/Header/Header";
 import AboutMe from "./Components/About/AboutMe";
-// import Conact from "./Components/About/Contact/Contact";
+import Contact from "./Components/Contact/Contact";
 import Projects from "./Components/Projects/Projects";
 
 function App() {
@@ -12,9 +12,8 @@ function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={AboutMe} />
-        {/* <Route path='/contact' component={Contact}/> */}
-        <Route path="/projects" component={Projects} />
-        {/* <Route path='' component={}/> */}
+        <Route path="/portfolio" component={Projects} />
+        <Route path="/contact" component={Contact} />
       </Switch>
     </div>
   );

@@ -15,16 +15,16 @@ function Header() {
       </Link>
       <ul>
         <Link to="/portfolio">
-          <li>Portfolio</li>
-        </Link>
-        <Link to="/projects">
           <li>Projects</li>
         </Link>
-        <Link to="/contact">
-          <li>Contact Me</li>
-        </Link>
       </ul>
-      <footer>To contact Me, dont.</footer>
+      <a href="evboggs94@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/evansboggs/">LinkedIn</a>
+      <a href="https://github.com/evboggs302">GitHub</a>
+      <footer>
+        All items on this site, including this site, were created by myself
+        unless otherwise noted.
+      </footer>
     </div>
   );
 }

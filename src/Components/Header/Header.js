@@ -6,13 +6,15 @@ import pic from "./prof-pic.jpg";
 function Header() {
   return (
     <div className="header_container">
-      <Link to="/">
-        <div>
-          <img id="profPic" src={pic} alt="profile-pic" />
-          <h1>Evan S. Boggs</h1>
-          <h3>FULL-STACK WEB DEVELOPER</h3>
-        </div>
-      </Link>
+      <div>
+        <Link to="/">
+          <div>
+            <img id="profPic" src={pic} alt="profile-pic" />
+            <h1 id="name">Evan S. Boggs</h1>
+            <h3 id="title">FULL-STACK WEB DEVELOPER</h3>
+          </div>
+        </Link>
+      </div>
       <ul>
         <Link to="/portfolio">
           <li>Projects</li>
@@ -20,6 +22,8 @@ function Header() {
         <Link to="/contact">
           <li>Contact Me</li>
         </Link>
+        <br />
+        <br />
       </ul>{" "}
       {/* To Connect:
       <div>evboggs94@gmail.com</div>

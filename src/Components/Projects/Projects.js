@@ -29,7 +29,7 @@ export default function Projects(props) {
           <li>JavaScript</li>
           <li>Socket.IO</li>
           <li>CSS</li>
-          <li>NodeMailer</li>
+          <li>PostgreSQL</li>
           <li>And More! ...</li>
         </ul>
       </span>

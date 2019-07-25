@@ -17,10 +17,23 @@ function Header() {
         <Link to="/portfolio">
           <li>Projects</li>
         </Link>
-      </ul>
-      <a href="evboggs94@gmail.com">Email</a>
-      <a href="https://www.linkedin.com/in/evansboggs/">LinkedIn</a>
-      <a href="https://github.com/evboggs302">GitHub</a>
+      </ul>{" "}
+      To Connect:
+      <div>evboggs94@gmail.com</div>
+      <a
+        href="https://www.linkedin.com/in/evansboggs/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        LinkedIn
+      </a>
+      <a
+        href="https://github.com/evboggs302"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub
+      </a>
       <footer>
         All items on this site, including this site, were created by myself
         unless otherwise noted.

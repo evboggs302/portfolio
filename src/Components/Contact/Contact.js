@@ -13,15 +13,27 @@ class Contact extends Component {
           <ul>
             <li>
               Email:
-              <a href="evboggs94@gmail.com">evboggs94@gmail.com</a>
+              <div>evboggs94@gmail.com</div>
             </li>
             <li>
               LinkedIn
-              <a href="https://www.linkedin.com/in/evansboggs/">evansboggs</a>
+              <a
+                href="https://www.linkedin.com/in/evansboggs/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                evansboggs
+              </a>
             </li>
             <li>
               GitHub
-              <a href="https://github.com/evboggs302">evboggs302</a>
+              <a
+                href="https://github.com/evboggs302"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                evboggs302
+              </a>
             </li>
           </ul>
         </div>

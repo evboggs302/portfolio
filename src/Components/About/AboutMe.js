@@ -10,10 +10,10 @@ function AboutMe() {
       <h1>Welcome! I'm Evan,</h1>
       <p>a full-stack web developer looking to grow my skills and give back.</p>
       <div>
-        <NavLink>
+        <NavLink to="/portfolio">
           <button>Portfolio</button>
         </NavLink>
-        <NavLink>
+        <NavLink to="/contact">
           <button>Contact Me</button>
         </NavLink>
       </div>

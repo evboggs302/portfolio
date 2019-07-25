@@ -17,8 +17,11 @@ function Header() {
         <Link to="/portfolio">
           <li>Projects</li>
         </Link>
+        <Link to="/contact">
+          <li>Contact Me</li>
+        </Link>
       </ul>{" "}
-      To Connect:
+      {/* To Connect:
       <div>evboggs94@gmail.com</div>
       <a
         href="https://www.linkedin.com/in/evansboggs/"
@@ -33,7 +36,7 @@ function Header() {
         rel="noopener noreferrer"
       >
         GitHub
-      </a>
+      </a> */}
       <footer>
         All items on this site, including this site, were created by myself
         unless otherwise noted.

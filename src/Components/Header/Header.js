@@ -17,7 +17,7 @@ function Header() {
       </div>
       <ul>
         <Link to="/portfolio">
-          <li>Projects</li>
+          <li>My Projects</li>
         </Link>
         <Link to="/contact">
           <li>Contact Me</li>

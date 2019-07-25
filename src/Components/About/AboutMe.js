@@ -11,7 +11,7 @@ function AboutMe() {
       <p>a full-stack web developer looking to grow my skills and give back.</p>
       <div>
         <NavLink to="/portfolio">
-          <button>My Work</button>
+          <button>My Projects</button>
         </NavLink>
         <NavLink to="/contact">
           <button>Contact Me</button>

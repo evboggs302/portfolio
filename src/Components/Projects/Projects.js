@@ -1,14 +1,13 @@
 import React from "react";
-import "./Projects.css";
+// import "./Projects.css";
 
 export default function Projects(props) {
   return (
     <div className="container">
-      MY WORK
-      <br />
-      <span>
+      <h1>MY PROJECTS</h1>
+      <span className="entry">
         <div>
-          <h1>The MadLib-Project</h1>
+          <h2>The MadLib-Project</h2>
           <div>(June 2019)</div>
         </div>
         <a
@@ -18,10 +17,10 @@ export default function Projects(props) {
         >
           MadLib-Project.com
         </a>
-        <div>
+        <article>
           Find yourself enjoying MadLibs? This site empowers you to fill out,
           create, browse, and share MadLibs!
-        </div>
+        </article>
         <ul>
           Technologies:
           <li>ReactJS</li>
@@ -34,9 +33,9 @@ export default function Projects(props) {
         </ul>
       </span>
       <br />
-      <span>
+      <span className="entry">
         <div>
-          <h1>DevFoutnain</h1>
+          <h2>DevFoutnain</h2>
           <div>(July 2019)</div>
         </div>
         <a
@@ -46,12 +45,12 @@ export default function Projects(props) {
         >
           Devfounta.in
         </a>
-        <div>
+        <article>
           DevFounta.in is a social media app that allows developers and tech
           recuiters to interact in a direct way. Made with love, and almost
           exclusively with React Hooks, DevFounta.in is the creation of a team
           of developers for developers.
-        </div>
+        </article>
         <ul>
           Technologies:
           <li>ReactJS</li>
@@ -65,9 +64,9 @@ export default function Projects(props) {
         </ul>
       </span>
       <br />
-      <span>
+      <span className="entry">
         <div>
-          <h1>Testing Example</h1>
+          <h2>Testing Example</h2>
           <div>(July 2019 - )</div>
         </div>
         <a
@@ -77,7 +76,7 @@ export default function Projects(props) {
         >
           Testing Walk-Through
         </a>
-        <div>
+        <article>
           This repo was designed and created to help provide clarity and
           examples on how integration and unit testing works (including testing
           hooks!). At the time this repo was created, hooks aren't widely
@@ -85,8 +84,8 @@ export default function Projects(props) {
           This repo will help in giving a basic understanding of integration and
           unit testing, as well as a good platform to launch more research in
           testing React Hooks.
-        </div>
-        <div>THIS IS A CONTINUAL WORK-IN-PROGRESS</div>
+        </article>
+        <article>THIS IS A CONTINUAL WORK-IN-PROGRESS</article>
         <ul>
           Technologies:
           <li>ReactJS</li>
@@ -97,6 +96,9 @@ export default function Projects(props) {
           <li>And More! ...</li>
         </ul>
       </span>
+      <br />
+      <br />
+      <br />
     </div>
   );
 }

@@ -17,4 +17,69 @@
   height: 100%;
   background-color: white;
   overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container > h1 {
+  color: red;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-size: xx-large;
+}
+
+.entry {
+  margin-left: 15px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.entry > div {
+  display: flex;
+  align-items: center;
+}
+
+.entry > div > h2 {
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.entry > div > div {
+  font-style: italic;
+}
+
+.entry > a {
+  padding: 8px;
+  font-size: 18px;
+}
+
+.entry > a:hover {
+  cursor: pointer;
+}
+
+.entry article {
+  width: 800px;
+  margin-bottom: 5px;
+  color: rgb(119, 119, 119);
+  font-style: italic;
+  font-size: medium;
+  text-align: left;
+}
+
+.entry > ul {
+  padding-left: 30px;
+  list-style-type: circle;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: bold;
+}
+
+.entry > ul > li {
+  font-weight: normal;
+  font-style: italic;
 }

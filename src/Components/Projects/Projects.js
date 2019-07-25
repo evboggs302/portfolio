@@ -85,7 +85,7 @@ export default function Projects(props) {
           unit testing, as well as a good platform to launch more research in
           testing React Hooks.
         </article>
-        <article>THIS IS A CONTINUAL WORK-IN-PROGRESS</article>
+        <em id="comment">**THIS IS A CONTINUAL WORK-IN-PROGRESS**</em>
         <ul>
           Technologies:
           <li>ReactJS</li>

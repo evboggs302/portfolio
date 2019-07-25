@@ -4,7 +4,9 @@ function Contact(props) {
   return (
     <div className="container">
       <h1>CONTACT ME</h1>
-      <div>I am available for hire and open to any ideas of cooperation.</div>
+      <div id="statement">
+        I am available for hire and open to any ideas of cooperation.
+      </div>
       <br />
       <ul>
         <li>
@@ -12,7 +14,7 @@ function Contact(props) {
           <div>evboggs94@gmail.com</div>
         </li>
         <li>
-          LinkedIn
+          LinkedIn:
           <a
             href="https://www.linkedin.com/in/evansboggs/"
             target="_blank"
@@ -22,7 +24,7 @@ function Contact(props) {
           </a>
         </li>
         <li>
-          GitHub
+          GitHub:
           <a
             href="https://github.com/evboggs302"
             target="_blank"

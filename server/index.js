@@ -5,7 +5,7 @@ const nodemailer = require("nodemailer");
 const { SERVER_PORT, EMAIL, EMAIL_PASSWORD } = process.env;
 
 app.use(express.json());
-// app.use(express.static(__dirname + "/../build"));
+app.use(express.static(__dirname + "/../build"));
 
 // NODEMAILER EndPoints
 app.post("/api/send", (req, res, next) => {
@@ -34,9 +34,11 @@ app.post("/api/send", (req, res, next) => {
 });
 
 // Becasue of browser router, you need the below lines.
-// const path = require("path");
-// app.get("*", (req, res) => {
-//   res.sendFile(path.join(__dirname, "/../build/index.html"));
-// });
+const path = require("path");
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "/../build/index.html"));
+});
+
+// console.log(path.join(__dirname, "/../build/index.html"));
 
 app.listen(SERVER_PORT, () => console.log(`SERVER on 💩 port: ${SERVER_PORT}`));

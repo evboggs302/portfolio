@@ -35,7 +35,7 @@ export default function Projects(props) {
       <br />
       <span className="entry">
         <div>
-          <h2>DevFoutnain</h2>
+          <h2>DevFountain</h2>
           <div>(July 2019)</div>
         </div>
         <a
@@ -46,7 +46,7 @@ export default function Projects(props) {
           Devfounta.in
         </a>
         <article>
-          DevFounta.in is a social media app that allows developers and tech
+          DevFountain is a social media app that allows developers and tech
           recuiters to interact in a direct way. Made with love, and almost
           exclusively with React Hooks, DevFounta.in is the creation of a team
           of developers for developers.

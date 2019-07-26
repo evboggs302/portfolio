@@ -39,6 +39,4 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "/../build/index.html"));
 });
 
-// console.log(path.join(__dirname, "/../build/index.html"));
-
 app.listen(SERVER_PORT, () => console.log(`SERVER on 💩 port: ${SERVER_PORT}`));

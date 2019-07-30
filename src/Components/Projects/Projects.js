@@ -1,5 +1,4 @@
 import React from "react";
-// import "./Projects.css";
 
 export default function Projects(props) {
   return (
@@ -27,9 +26,9 @@ export default function Projects(props) {
           <li>NodeJS</li>
           <li>JavaScript</li>
           <li>Socket.IO</li>
-          <li>CSS</li>
-          <li>PostgreSQL</li>
-          <li>And More! ...</li>
+          <li>SQL</li>
+          <li>Stripe</li>
+          <li>Bcrypt</li>
         </ul>
       </span>
       <br />
@@ -59,7 +58,7 @@ export default function Projects(props) {
           <li>React Hooks</li>
           <li>Socket.IO</li>
           <li>SASS</li>
-          <li>NodeMailer</li>
+          <li>Cloudinary</li>
           <li>And More! ...</li>
         </ul>
       </span>
@@ -92,7 +91,7 @@ export default function Projects(props) {
           <li>NodeJS</li>
           <li>JavaScript</li>
           <li>jooks</li>
-          <li>BCRYPT</li>
+          <li>Bcrypt</li>
           <li>And More! ...</li>
         </ul>
       </span>

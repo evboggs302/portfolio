@@ -59,7 +59,7 @@ export default function Projects(props) {
           <li>Socket.IO</li>
           <li>SASS</li>
           <li>Cloudinary</li>
-          <li>And More! ...</li>
+          <li>{`Unit & Integration Testing`}</li>
         </ul>
       </span>
       <br />
